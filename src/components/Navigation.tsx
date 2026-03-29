@@ -5,7 +5,7 @@ export default function Navigation() {
     <header className="sticky top-0 bg-white/95 backdrop-blur-[10px] z-[1000] border-b border-gray-200 shadow-sm py-4">
       <div className="w-full max-w-[1200px] mx-auto px-6 flex justify-between items-center">
         <Link href="/" className="flex items-center">
-          <img src="/images/logo.png" alt="Meraj Dental Clinic Logo" className="h-10 w-auto" />
+          <img src="/images/logo.png" alt="Meraj Dental Clinic Logo" className="h-14 w-auto" />
         </Link>
         
         <nav className="hidden md:block">
