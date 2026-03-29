@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #B88D3B;
-  --color-primary-hover: #DEB860;
-  --color-dark-gold: #8B6A27;
-  --color-light: #faf8f4;
-  --color-slate: #2a2014;
-  --color-muted: #5a5550;
-  --color-silver: #C8C8C8;
+  --color-primary: #008D9A;
+  --color-primary-hover: #14b8a6;
+  --color-accent: #0EA5E9;
+  --color-dark-gold: #006D7A;
+  --color-light: #f0fdfa;
+  --color-slate: #0f172a;
+  --color-muted: #475569;
+  --color-silver: #E2E8F0;
 
   --font-sans: "Inter", sans-serif;
 
-  --shadow-glow: 0 0 0 3px rgba(184, 141, 59, 0.15);
+  --shadow-glow: 0 0 0 3px rgba(0, 141, 154, 0.15);
 }
 
 @layer base {
@@ -45,7 +46,7 @@
   }
 
   .badge {
-    @apply inline-block px-3 py-1.5 bg-[#f5eed9] text-primary rounded-full text-xs font-bold tracking-wider uppercase mb-4;
+    @apply inline-block px-3 py-1.5 bg-primary/10 text-primary rounded-full text-xs font-bold tracking-wider uppercase mb-4;
   }
 }
 

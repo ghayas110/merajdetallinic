@@ -120,7 +120,7 @@ export default function Home() {
               <div className="text-sm mb-4">⭐⭐⭐⭐⭐</div>
               <p className="text-[1.1rem] italic mb-6 text-white/90">&quot;The best dental experience I&apos;ve ever had. The staff were professional, the clinic was spotless, and the treatment was completely painless.&quot;</p>
               <div className="flex items-center gap-4 mt-8">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-[0.9rem] bg-[#B88D3B]">JS</div>
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-[0.9rem] bg-primary">JS</div>
                 <div>
                   <strong className="block text-[0.95rem] text-white">John Smith</strong>
                   <span className="text-[0.8rem] text-white/60">Patient since 2021</span>
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="text-sm mb-4">⭐⭐⭐⭐⭐</div>
               <p className="text-[1.1rem] italic mb-6 text-white/90">&quot;Meraj Dental Clinic completely changed my smile with their whitening treatment. I feel so much more confident in professional meetings now.&quot;</p>
               <div className="flex items-center gap-4 mt-8">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-[0.9rem] bg-[#8B6A27]">SA</div>
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-[0.9rem] bg-dark-gold">SA</div>
                 <div>
                   <strong className="block text-[0.95rem] text-white">Sarah Adams</strong>
                   <span className="text-[0.8rem] text-white/60">Marketing Executive</span>

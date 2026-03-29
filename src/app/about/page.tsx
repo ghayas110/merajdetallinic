@@ -84,7 +84,7 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-10">Patient-First Care</h2>
             
             <div className="flex gap-6 items-start mb-8 hover-card p-4 -ml-4 rounded-xl">
-              <div className="w-12 h-12 bg-[#f5eed9] text-primary rounded shrink-0 flex items-center justify-center text-xl">🛡️</div>
+              <div className="w-12 h-12 bg-primary/10 text-primary rounded shrink-0 flex items-center justify-center text-xl">🛡️</div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Compassionate Environment</h4>
                 <p className="text-muted text-[0.9rem]">We prioritize your comfort with a calming clinic atmosphere and sedation options for anxious patients.</p>
@@ -92,7 +92,7 @@ export default function About() {
             </div>
             
             <div className="flex gap-6 items-start mb-8 hover-card p-4 -ml-4 rounded-xl">
-              <div className="w-12 h-12 bg-[#f5eed9] text-primary rounded shrink-0 flex items-center justify-center text-xl">💳</div>
+              <div className="w-12 h-12 bg-primary/10 text-primary rounded shrink-0 flex items-center justify-center text-xl">💳</div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Transparent Pricing</h4>
                 <p className="text-muted text-[0.9rem]">No hidden costs. We provide detailed treatment plans and flexible financing to suit your budget.</p>
@@ -100,7 +100,7 @@ export default function About() {
             </div>
             
             <div className="flex gap-6 items-start hover-card p-4 -ml-4 rounded-xl">
-              <div className="w-12 h-12 bg-[#f5eed9] text-primary rounded shrink-0 flex items-center justify-center text-xl">🕒</div>
+              <div className="w-12 h-12 bg-primary/10 text-primary rounded shrink-0 flex items-center justify-center text-xl">🕒</div>
               <div>
                 <h4 className="font-bold text-lg mb-2">Personalized Appointments</h4>
                 <p className="text-muted text-[0.9rem]">We value your time, ensuring minimal wait times and dedicated one-on-one sessions with our experts.</p>

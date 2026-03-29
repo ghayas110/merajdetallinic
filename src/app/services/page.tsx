@@ -28,7 +28,7 @@ export default function Services() {
                 </div>
                 <div className="p-8 flex-grow flex flex-col">
                   {/* For icons, we can dynamically pull an icon or use a generic one if we don't have it mapped, but for now we'll look at the badges */}
-                  <div className="w-auto h-auto bg-[#f5eed9] text-primary rounded-lg font-bold text-sm px-3 py-1 mb-4 inline-block self-start border border-[#e8dfc4]">
+                  <div className="w-auto h-auto bg-primary/10 text-primary rounded-lg font-bold text-sm px-3 py-1 mb-4 inline-block self-start border border-primary/20">
                     {service.badge}
                   </div>
                   <h3 className="font-bold text-xl mb-3 group-hover:text-primary transition-colors">{service.title}</h3>
@@ -42,7 +42,7 @@ export default function Services() {
           ))}
           
           <Link href="/contact" className="group block h-full lg:col-span-2">
-             <div className="bg-gradient-to-br from-primary to-[#8B6A27] rounded-2xl overflow-hidden text-white p-10 h-full flex flex-col justify-center items-center text-center hover-card relative">
+             <div className="bg-gradient-to-br from-primary to-accent rounded-2xl overflow-hidden text-white p-10 h-full flex flex-col justify-center items-center text-center hover-card relative">
                 <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -mr-20 -mt-20"></div>
                 <h3 className="text-3xl font-bold mb-4 z-10">Not Sure What You Need?</h3>
                 <p className="text-white/90 mb-8 max-w-lg z-10">
