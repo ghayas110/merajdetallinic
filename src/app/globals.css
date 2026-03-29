@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #B88D3B;
+  --color-primary-hover: #DEB860;
+  --color-dark-gold: #8B6A27;
+  --color-light: #faf8f4;
+  --color-slate: #2a2014;
+  --color-muted: #5a5550;
+  --color-silver: #C8C8C8;
+
+  --font-sans: "Inter", sans-serif;
+
+  --shadow-glow: 0 0 0 3px rgba(184, 141, 59, 0.15);
+}
+
+@layer base {
+  html,
+  body {
+    @apply max-w-[100vw] overflow-x-hidden font-sans text-gray-900 bg-white leading-relaxed;
+  }
+}
+
+@layer components {
+
+  /* Reusable button styles we still want as components even with Tailwind */
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded font-semibold text-[0.95rem] transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-hover hover:-translate-y-px;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-gray-900 border border-gray-200 hover:border-gray-900 hover:-translate-y-px;
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-primary border border-primary hover:bg-primary hover:text-white;
+  }
+
+  .hover-card {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  .badge {
+    @apply inline-block px-3 py-1.5 bg-[#f5eed9] text-primary rounded-full text-xs font-bold tracking-wider uppercase mb-4;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
